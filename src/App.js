@@ -9,6 +9,7 @@ import {
 // Default Export
 import ThirdComponent from './components/MyComponents';
 import FC from './components/FourthComponent';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <SC />
       <ThirdComponent />
       <FC />
+      <HelloWorld />
     </div>
   );
 }
