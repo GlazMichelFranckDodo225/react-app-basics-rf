@@ -1,5 +1,5 @@
 import './App.css';
-import Greeting from './components/Greeting';
+/* import Greeting from './components/Greeting';
 import Welcome from './components/Welcome';
 // Named Export
 import { 
@@ -9,18 +9,29 @@ import {
 // Default Export
 import ThirdComponent from './components/MyComponents';
 import FC from './components/FourthComponent';
-import HelloWorld from './components/HelloWorld';
+import HelloWorld from './components/HelloWorld'; */
+import Student from './components/Student';
 
 function App() {
   return (
     <div className="App">
-      <Welcome firstName="John" lastName="Doe"/>
+      {/* <Welcome firstName="John" lastName="Doe"/>
       <Greeting firstName="Maeva" lastName="Fortunal"/>
       <FirstComponent />
       <SC />
       <ThirdComponent />
       <FC />
-      <HelloWorld />
+      <HelloWorld /> */}
+      <Student
+        firstName="John"
+        lastName="Doe"
+        email="johndoe@gmail.com"
+      />
+      <Student
+        firstName="Irineva"
+        lastName="Borovitch"
+        email="irinevaborovitch@gmail.com"
+      />
     </div>
   );
 }
