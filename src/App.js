@@ -13,6 +13,20 @@ import HelloWorld from './components/HelloWorld'; */
 import Student from './components/Student';
 
 function App() {
+  const student1 = {
+    firstName: "John",
+    lastName: "Doe",
+    email: "johndoe@gmail.com"
+  }
+
+  const student2 = {
+    firstName: "Irineva",
+    lastName: "Borovitch",
+    email: "irinevaborovitch@gmail.com"
+  }
+
+  const skills = ["Java", "Spring", "React"]
+
   return (
     <div className="App">
       {/* <Welcome firstName="John" lastName="Doe"/>
@@ -22,16 +36,8 @@ function App() {
       <ThirdComponent />
       <FC />
       <HelloWorld /> */}
-      <Student
-        firstName="John"
-        lastName="Doe"
-        email="johndoe@gmail.com"
-      />
-      <Student
-        firstName="Irineva"
-        lastName="Borovitch"
-        email="irinevaborovitch@gmail.com"
-      />
+      <Student student={student1} skills={skills[0] + skills[1]}/>
+      <Student student={student2} skills={skills[2]}/>
     </div>
   );
 }
