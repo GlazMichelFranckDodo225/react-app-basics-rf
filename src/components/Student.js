@@ -1,7 +1,9 @@
 import React from 'react'
 
 // const Student = (props) => {
-const Student = ({firstName, lastName, email}) => {
+const Student = (props) => {
+  const {firstName, lastName, email} = props;
+  
   return (
     <div>
       <h1>Student Details</h1>
