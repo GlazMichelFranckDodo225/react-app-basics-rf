@@ -36,8 +36,10 @@ function App() {
       <ThirdComponent />
       <FC />
       <HelloWorld /> */}
-      <Student student={student1} skills={skills[0] + skills[1]}/>
-      <Student student={student2} skills={skills[2]}/>
+      {/* <Student student={student1} skills={skills[0] + skills[1]}/>
+      <Student student={student2} skills={skills[2]}/> */}
+      {/* <Student skills={skills}/> */}
+      <Student firstName="John" lastName="Doe" email="johndoe@gmail.com"/>
     </div>
   );
 }
