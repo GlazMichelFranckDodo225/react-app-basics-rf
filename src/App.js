@@ -1,4 +1,5 @@
 import './App.css';
+import Employee from './components/Employee';
 /* import Greeting from './components/Greeting';
 import Welcome from './components/Welcome';
 // Named Export
@@ -39,7 +40,8 @@ function App() {
       {/* <Student student={student1} skills={skills[0] + skills[1]}/>
       <Student student={student2} skills={skills[2]}/> */}
       {/* <Student skills={skills}/> */}
-      <Student firstName="John" lastName="Doe" email="johndoe@gmail.com"/>
+      {/* <Student firstName="John" lastName="Doe" email="johndoe@gmail.com"/> */}
+      <Employee />
     </div>
   );
 }
