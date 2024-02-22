@@ -12,6 +12,7 @@ import ThirdComponent from './components/MyComponents';
 import FC from './components/FourthComponent';
 import HelloWorld from './components/HelloWorld'; */
 import Student from './components/Student';
+import User from './components/User';
 
 function App() {
   const student1 = {
@@ -41,7 +42,8 @@ function App() {
       <Student student={student2} skills={skills[2]}/> */}
       {/* <Student skills={skills}/> */}
       {/* <Student firstName="John" lastName="Doe" email="johndoe@gmail.com"/> */}
-      <Employee />
+      {/* <Employee /> */}
+      <User />
     </div>
   );
 }
