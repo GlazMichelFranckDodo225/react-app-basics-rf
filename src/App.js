@@ -1,4 +1,5 @@
 import './App.css';
+import ConditionalRendering from './components/ConditionalRendering';
 // import Employee from './components/Employee';
 import EventHandling from './components/EventHandling';
 /* import Greeting from './components/Greeting';
@@ -45,7 +46,8 @@ function App() {
       {/* <Student firstName="John" lastName="Doe" email="johndoe@gmail.com"/> */}
       {/* <Employee /> */}
       {/* <User /> */}
-      <EventHandling />
+      {/* <EventHandling /> */}
+      <ConditionalRendering />
     </div>
   );
 }
