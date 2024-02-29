@@ -17,7 +17,8 @@ const ConditionalRendering = () => {
     return (
         <div>
             {/* {message} */}
-            {isLoggedIn ? <p>Welcome, User.</p> : <p>Please, Login.</p>}
+            {/* {isLoggedIn ? <p>Welcome, User.</p> : <p>Please, Login.</p>} */}
+            {isLoggedIn && <p>Welcome, User.</p>}
             <br /><br />
             <button onClick={handleClick}>Login</button>
         </div>
