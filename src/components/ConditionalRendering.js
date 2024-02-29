@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 
 const ConditionalRendering = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
-    let message;
+    /* let message;
 
     if (isLoggedIn) {
         message = <p>Welcome, User.</p>
     } else {
         message = <p>Please, Login.</p>
-    }
+    } */
 
     function handleClick() {
         setIsLoggedIn(true)
@@ -16,7 +16,8 @@ const ConditionalRendering = () => {
 
     return (
         <div>
-            {message}
+            {/* {message} */}
+            {isLoggedIn ? <p>Welcome, User.</p> : <p>Please, Login.</p>}
             <br /><br />
             <button onClick={handleClick}>Login</button>
         </div>
