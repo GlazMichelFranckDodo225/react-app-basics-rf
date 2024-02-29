@@ -1,5 +1,6 @@
 import './App.css';
-import Employee from './components/Employee';
+// import Employee from './components/Employee';
+import EventHandling from './components/EventHandling';
 /* import Greeting from './components/Greeting';
 import Welcome from './components/Welcome';
 // Named Export
@@ -11,11 +12,11 @@ import {
 import ThirdComponent from './components/MyComponents';
 import FC from './components/FourthComponent';
 import HelloWorld from './components/HelloWorld'; */
-import Student from './components/Student';
-import User from './components/User';
+/* import Student from './components/Student';
+import User from './components/User'; */
 
 function App() {
-  const student1 = {
+  /* const student1 = {
     firstName: "John",
     lastName: "Doe",
     email: "johndoe@gmail.com"
@@ -27,7 +28,7 @@ function App() {
     email: "irinevaborovitch@gmail.com"
   }
 
-  const skills = ["Java", "Spring", "React"]
+  const skills = ["Java", "Spring", "React"] */
 
   return (
     <div className="App">
@@ -43,7 +44,8 @@ function App() {
       {/* <Student skills={skills}/> */}
       {/* <Student firstName="John" lastName="Doe" email="johndoe@gmail.com"/> */}
       {/* <Employee /> */}
-      <User />
+      {/* <User /> */}
+      <EventHandling />
     </div>
   );
 }
